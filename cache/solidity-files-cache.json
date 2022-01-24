@@ -1,15 +1,15 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\cellar\\CellarV1.sol": {
-      "lastModificationDate": 1641985690207,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/cellar/CellarV1.sol": {
+      "lastModificationDate": 1643041142951,
       "contentHash": "a50893568f80fe7db0eeee61af0a5699",
       "sourceName": "contracts/cellar/CellarV1.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -18,24 +18,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -66,15 +53,15 @@
         "RebaseLibrary"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\cellar\\GrapePairMediumRiskV1.sol": {
-      "lastModificationDate": 1642419106510,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/cellar/GrapePairMediumRiskV1.sol": {
+      "lastModificationDate": 1643041142949,
       "contentHash": "4efcb22437514bf1272166daa0d1b6d5",
       "sourceName": "contracts/cellar/GrapePairMediumRiskV1.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -83,24 +70,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -130,15 +104,15 @@
         "RebaseLibrary"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\cellar\\PeggedOracleV1.sol": {
-      "lastModificationDate": 1641981854725,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/cellar/PeggedOracleV1.sol": {
+      "lastModificationDate": 1643041142950,
       "contentHash": "39e9e524e99bc262bd77c28ba27438c1",
       "sourceName": "contracts/cellar/PeggedOracleV1.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -147,24 +121,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -178,15 +139,15 @@
         "PeggedOracleV1"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\ChampagneCastle.sol": {
-      "lastModificationDate": 1641985647963,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/ChampagneCastle.sol": {
+      "lastModificationDate": 1643041142941,
       "contentHash": "dd17e1c1bb03d222fe93d52a00d9ad04",
       "sourceName": "contracts/ChampagneCastle.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -195,24 +156,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -232,15 +180,15 @@
         "ChampagneCastle"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\IERC20.sol": {
-      "lastModificationDate": 1642430273517,
+    "/Users/jq/Documents/GitHub/champagneswap/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1643041181691,
       "contentHash": "e0a41531d159d3a32f84b7a3ecf9fabb",
       "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -249,24 +197,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -279,15 +214,15 @@
         "IERC20"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\SafeERC20.sol": {
-      "lastModificationDate": 1642430274827,
+    "/Users/jq/Documents/GitHub/champagneswap/node_modules/@openzeppelin/contracts/token/ERC20/SafeERC20.sol": {
+      "lastModificationDate": 1643041181696,
       "contentHash": "33e22842646d746e5c4124c2fdc051aa",
       "sourceName": "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -296,24 +231,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -330,15 +252,15 @@
         "SafeERC20"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\uniswapv2\\interfaces\\IUniswapV2Pair.sol": {
-      "lastModificationDate": 1641981854835,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/uniswapv2/interfaces/IUniswapV2Pair.sol": {
+      "lastModificationDate": 1643041142936,
       "contentHash": "f752430d5f09b9f563592f001dafc406",
       "sourceName": "contracts/uniswapv2/interfaces/IUniswapV2Pair.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -347,24 +269,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -377,15 +286,15 @@
         "IUniswapV2Pair"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\uniswapv2\\interfaces\\IUniswapV2Router01.sol": {
-      "lastModificationDate": 1641981854913,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/uniswapv2/interfaces/IUniswapV2Router01.sol": {
+      "lastModificationDate": 1643041142932,
       "contentHash": "de449a0015279bb9d53b5ae3f4042e3a",
       "sourceName": "contracts/uniswapv2/interfaces/IUniswapV2Router01.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -394,24 +303,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -424,15 +320,15 @@
         "IUniswapV2Router01"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\uniswapv2\\interfaces\\IUniswapV2Factory.sol": {
-      "lastModificationDate": 1641981854835,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/uniswapv2/interfaces/IUniswapV2Factory.sol": {
+      "lastModificationDate": 1643041142935,
       "contentHash": "d198bcd7fe50362c13205a49a264308d",
       "sourceName": "contracts/uniswapv2/interfaces/IUniswapV2Factory.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -441,24 +337,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -471,15 +354,15 @@
         "IUniswapV2Factory"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\uniswapv2\\libraries\\UniswapV2Library.sol": {
-      "lastModificationDate": 1641981854928,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/uniswapv2/libraries/UniswapV2Library.sol": {
+      "lastModificationDate": 1643041142923,
       "contentHash": "86fd1ccb6ab641d2971e5f78dc34e095",
       "sourceName": "contracts/uniswapv2/libraries/UniswapV2Library.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -488,24 +371,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -521,15 +391,15 @@
         "UniswapV2Library"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\node_modules\\@openzeppelin\\contracts\\math\\SafeMath.sol": {
-      "lastModificationDate": 1642430274894,
+    "/Users/jq/Documents/GitHub/champagneswap/node_modules/@openzeppelin/contracts/math/SafeMath.sol": {
+      "lastModificationDate": 1643041181765,
       "contentHash": "e03e12206057e809eb76c5f681170c32",
       "sourceName": "@openzeppelin/contracts/math/SafeMath.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -538,24 +408,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -568,15 +425,15 @@
         "SafeMath"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\node_modules\\@openzeppelin\\contracts\\utils\\Address.sol": {
-      "lastModificationDate": 1642430267896,
+    "/Users/jq/Documents/GitHub/champagneswap/node_modules/@openzeppelin/contracts/utils/Address.sol": {
+      "lastModificationDate": 1643041181754,
       "contentHash": "7aa46886ff5abe7515496208a5e2ce5a",
       "sourceName": "@openzeppelin/contracts/utils/Address.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -585,24 +442,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -615,15 +459,15 @@
         "Address"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\uniswapv2\\libraries\\SafeMath.sol": {
-      "lastModificationDate": 1641981854928,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/uniswapv2/libraries/SafeMath.sol": {
+      "lastModificationDate": 1643041142924,
       "contentHash": "35c589973c3d246950ab64d2f23d59d4",
       "sourceName": "contracts/uniswapv2/libraries/SafeMath.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -632,24 +476,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -662,15 +493,15 @@
         "SafeMathUniswap"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\uniswapv2\\UniswapV2Router02.sol": {
-      "lastModificationDate": 1642690657998,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/uniswapv2/UniswapV2Router02.sol": {
+      "lastModificationDate": 1643041142928,
       "contentHash": "ba92624ba3edde77e6ec89d0d76141fe",
       "sourceName": "contracts/uniswapv2/UniswapV2Router02.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -679,24 +510,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -717,15 +535,15 @@
         "UniswapV2Router02"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\uniswapv2\\libraries\\TransferHelper.sol": {
-      "lastModificationDate": 1641981854928,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/uniswapv2/libraries/TransferHelper.sol": {
+      "lastModificationDate": 1643041142927,
       "contentHash": "3c1a6bb1e681b5aa02aaf54731f6970f",
       "sourceName": "contracts/uniswapv2/libraries/TransferHelper.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -734,24 +552,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -764,15 +569,15 @@
         "TransferHelper"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\uniswapv2\\interfaces\\IUniswapV2Router02.sol": {
-      "lastModificationDate": 1641981854928,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/uniswapv2/interfaces/IUniswapV2Router02.sol": {
+      "lastModificationDate": 1643041142933,
       "contentHash": "494b1d2155ee266e41b11ef57d88e90e",
       "sourceName": "contracts/uniswapv2/interfaces/IUniswapV2Router02.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -781,24 +586,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -813,15 +605,15 @@
         "IUniswapV2Router02"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\uniswapv2\\interfaces\\IERC20.sol": {
-      "lastModificationDate": 1641981854819,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/uniswapv2/interfaces/IERC20.sol": {
+      "lastModificationDate": 1643041142931,
       "contentHash": "e1618a34e4b67aedf5e9dfe4c83adc7b",
       "sourceName": "contracts/uniswapv2/interfaces/IERC20.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -830,24 +622,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -860,15 +639,15 @@
         "IERC20Uniswap"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\uniswapv2\\interfaces\\IWETH.sol": {
-      "lastModificationDate": 1641981854928,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/uniswapv2/interfaces/IWETH.sol": {
+      "lastModificationDate": 1643041142934,
       "contentHash": "544f01449bed2a6dbe2a5addb8a6815e",
       "sourceName": "contracts/uniswapv2/interfaces/IWETH.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -877,24 +656,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -907,15 +673,15 @@
         "IWETH"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\uniswapv2\\UniswapV2Pair.sol": {
-      "lastModificationDate": 1641981854819,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/uniswapv2/UniswapV2Pair.sol": {
+      "lastModificationDate": 1643041142930,
       "contentHash": "f8f38612aca7c47863c819fea4f47690",
       "sourceName": "contracts/uniswapv2/UniswapV2Pair.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -924,24 +690,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -962,15 +715,15 @@
         "UniswapV2Pair"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\uniswapv2\\UniswapV2ERC20.sol": {
-      "lastModificationDate": 1642591400507,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/uniswapv2/UniswapV2ERC20.sol": {
+      "lastModificationDate": 1643041142920,
       "contentHash": "60f3728aa9ae60f91a7656be67685b46",
       "sourceName": "contracts/uniswapv2/UniswapV2ERC20.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -979,24 +732,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -1011,15 +751,15 @@
         "UniswapV2ERC20"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\uniswapv2\\libraries\\Math.sol": {
-      "lastModificationDate": 1641981854928,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/uniswapv2/libraries/Math.sol": {
+      "lastModificationDate": 1643041142926,
       "contentHash": "efb1839b8c35a166002e719a82d280ed",
       "sourceName": "contracts/uniswapv2/libraries/Math.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -1028,24 +768,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -1058,15 +785,15 @@
         "Math"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\uniswapv2\\libraries\\UQ112x112.sol": {
-      "lastModificationDate": 1641981854928,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/uniswapv2/libraries/UQ112x112.sol": {
+      "lastModificationDate": 1643041142925,
       "contentHash": "f0bab25e924fb824712fde36dbe3567f",
       "sourceName": "contracts/uniswapv2/libraries/UQ112x112.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -1075,24 +802,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -1105,15 +819,15 @@
         "UQ112x112"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\uniswapv2\\interfaces\\IUniswapV2Callee.sol": {
-      "lastModificationDate": 1641981854819,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/uniswapv2/interfaces/IUniswapV2Callee.sol": {
+      "lastModificationDate": 1643041142937,
       "contentHash": "80d689cf8bc5df93a87bff04028314be",
       "sourceName": "contracts/uniswapv2/interfaces/IUniswapV2Callee.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -1122,24 +836,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -1152,15 +853,15 @@
         "IUniswapV2Callee"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\mocks\\ChampagneSwapPairMock.sol": {
-      "lastModificationDate": 1641981854788,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/mocks/ChampagneSwapPairMock.sol": {
+      "lastModificationDate": 1643041142914,
       "contentHash": "ae8d4c65d079e91dd222cb3c8fb2f1ab",
       "sourceName": "contracts/mocks/ChampagneSwapPairMock.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -1169,24 +870,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -1201,15 +889,15 @@
         "ChampagneSwapPairMock"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\uniswapv2\\UniswapV2Factory.sol": {
-      "lastModificationDate": 1642596754869,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/uniswapv2/UniswapV2Factory.sol": {
+      "lastModificationDate": 1643041142919,
       "contentHash": "acec6f8f96bba927ba81bf9f1f2dbc52",
       "sourceName": "contracts/uniswapv2/UniswapV2Factory.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -1218,24 +906,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -1251,15 +926,15 @@
         "UniswapV2Factory"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\mocks\\ChampagneSwapFactoryMock.sol": {
-      "lastModificationDate": 1641985702284,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/mocks/ChampagneSwapFactoryMock.sol": {
+      "lastModificationDate": 1643041142908,
       "contentHash": "66a198cdde80fa1777e3ab8042995893",
       "sourceName": "contracts/mocks/ChampagneSwapFactoryMock.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -1268,24 +943,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -1300,15 +962,15 @@
         "ChampagneSwapFactoryMock"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\Migrator.sol": {
-      "lastModificationDate": 1641985659039,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/Migrator.sol": {
+      "lastModificationDate": 1643041142915,
       "contentHash": "387bbdbf55742a2f2d980bacd3180566",
       "sourceName": "contracts/Migrator.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -1317,24 +979,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -1350,15 +999,15 @@
         "Migrator"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\ChampagneMakerGrape.sol": {
-      "lastModificationDate": 1642420232581,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/ChampagneMakerGrape.sol": {
+      "lastModificationDate": 1643041142953,
       "contentHash": "e2005f902ba060b6f8d926360e470c59",
       "sourceName": "contracts/ChampagneMakerGrape.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -1367,24 +1016,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -1405,15 +1041,15 @@
         "IGrapeWithdrawFee"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\libraries\\SafeMath.sol": {
-      "lastModificationDate": 1641981854772,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/libraries/SafeMath.sol": {
+      "lastModificationDate": 1643041142943,
       "contentHash": "bd66242b2b2e2f0bb5d7d525c81816f6",
       "sourceName": "contracts/libraries/SafeMath.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -1422,24 +1058,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -1453,15 +1076,15 @@
         "SafeMath128"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\libraries\\SafeERC20.sol": {
-      "lastModificationDate": 1641981854772,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/libraries/SafeERC20.sol": {
+      "lastModificationDate": 1643041142942,
       "contentHash": "e623ab5222f453f436b7ddb0ab303fc2",
       "sourceName": "contracts/libraries/SafeERC20.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -1470,24 +1093,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -1502,15 +1112,15 @@
         "SafeERC20"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\Ownable.sol": {
-      "lastModificationDate": 1641985664692,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/Ownable.sol": {
+      "lastModificationDate": 1643041142939,
       "contentHash": "7c57a797782b1b691950e6e959660c69",
       "sourceName": "contracts/Ownable.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -1519,24 +1129,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -1550,15 +1147,15 @@
         "OwnableData"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\interfaces\\IERC20.sol": {
-      "lastModificationDate": 1641981854772,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/interfaces/IERC20.sol": {
+      "lastModificationDate": 1643041142954,
       "contentHash": "06bb2f617b145cb9d16372e96658e662",
       "sourceName": "contracts/interfaces/IERC20.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -1567,24 +1164,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -1597,15 +1181,15 @@
         "IERC20"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\mocks\\ChampagneMakerGrapeExploitMock.sol": {
-      "lastModificationDate": 1641985701608,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/mocks/ChampagneMakerGrapeExploitMock.sol": {
+      "lastModificationDate": 1643041142905,
       "contentHash": "d85c59d5d883b859c33589c5cca2569b",
       "sourceName": "contracts/mocks/ChampagneMakerGrapeExploitMock.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -1614,24 +1198,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -1646,15 +1217,15 @@
         "ChampagneMakerGrapeExploitMock"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\ChampagneMaker.sol": {
-      "lastModificationDate": 1642420483728,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/ChampagneMaker.sol": {
+      "lastModificationDate": 1643041142940,
       "contentHash": "ff05f7f159474cbce6dfef1b70ce5b02",
       "sourceName": "contracts/ChampagneMaker.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -1663,24 +1234,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -1700,15 +1258,15 @@
         "ChampagneMaker"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\uniswapv2\\interfaces\\IUniswapV2ERC20.sol": {
-      "lastModificationDate": 1641981854819,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/uniswapv2/interfaces/IUniswapV2ERC20.sol": {
+      "lastModificationDate": 1643041142933,
       "contentHash": "58593c09900e9d1acb2f19d86544e0a7",
       "sourceName": "contracts/uniswapv2/interfaces/IUniswapV2ERC20.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -1717,24 +1275,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -1747,15 +1292,15 @@
         "IUniswapV2ERC20"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\mocks\\ChampagneMakerExploitMock.sol": {
-      "lastModificationDate": 1642420402874,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/mocks/ChampagneMakerExploitMock.sol": {
+      "lastModificationDate": 1643041142912,
       "contentHash": "ce7f07eed8d26adc52df8d2ef719ab84",
       "sourceName": "contracts/mocks/ChampagneMakerExploitMock.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -1764,24 +1309,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -1796,15 +1328,15 @@
         "ChampangeMakerExploitMock"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\WineMaker.sol": {
-      "lastModificationDate": 1642766822290,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/WineMaker.sol": {
+      "lastModificationDate": 1643041142916,
       "contentHash": "83d9e55faa01f56685071b6781f5d6db",
       "sourceName": "contracts/WineMaker.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -1813,24 +1345,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -1851,15 +1370,15 @@
         "WineMaker"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\node_modules\\@openzeppelin\\contracts\\utils\\EnumerableSet.sol": {
-      "lastModificationDate": 1642430270597,
+    "/Users/jq/Documents/GitHub/champagneswap/node_modules/@openzeppelin/contracts/utils/EnumerableSet.sol": {
+      "lastModificationDate": 1643041181755,
       "contentHash": "db7b1afdb2c204e1e52100b79f0c847e",
       "sourceName": "@openzeppelin/contracts/utils/EnumerableSet.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -1868,24 +1387,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -1898,15 +1404,15 @@
         "EnumerableSet"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\node_modules\\@openzeppelin\\contracts\\access\\Ownable.sol": {
-      "lastModificationDate": 1642430273736,
+    "/Users/jq/Documents/GitHub/champagneswap/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1643041181729,
       "contentHash": "6748815a5b45c4aeeda56819f41190e0",
       "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -1915,24 +1421,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -1947,15 +1440,15 @@
         "Ownable"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\ChampagneToken.sol": {
-      "lastModificationDate": 1642773660230,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/ChampagneToken.sol": {
+      "lastModificationDate": 1643041142938,
       "contentHash": "174a959b6891dc981100ba4c581a6315",
       "sourceName": "contracts/ChampagneToken.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -1964,24 +1457,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -1997,15 +1477,15 @@
         "ChampagneToken"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\node_modules\\@openzeppelin\\contracts\\utils\\Context.sol": {
-      "lastModificationDate": 1642430268793,
+    "/Users/jq/Documents/GitHub/champagneswap/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1643041181757,
       "contentHash": "2adbd82f6d055a4751566d4671512b03",
       "sourceName": "@openzeppelin/contracts/utils/Context.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -2014,24 +1494,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -2044,15 +1511,15 @@
         "Context"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol": {
-      "lastModificationDate": 1642771083963,
+    "/Users/jq/Documents/GitHub/champagneswap/node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol": {
+      "lastModificationDate": 1643041181693,
       "contentHash": "8065b340476f61365c076897199425f1",
       "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -2061,24 +1528,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -2095,15 +1549,15 @@
         "ERC20"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\mocks\\ERC20Mock.sol": {
-      "lastModificationDate": 1641985707072,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/mocks/ERC20Mock.sol": {
+      "lastModificationDate": 1643041142909,
       "contentHash": "ce779fc6efdc86f2122ea457d2953bed",
       "sourceName": "contracts/mocks/ERC20Mock.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -2112,24 +1566,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -2144,15 +1585,15 @@
         "ERC20Mock"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\governance\\Timelock.sol": {
-      "lastModificationDate": 1641985678732,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/governance/Timelock.sol": {
+      "lastModificationDate": 1643041142948,
       "contentHash": "b6f213ae78ec77f3c2a02c4b8f916a10",
       "sourceName": "contracts/governance/Timelock.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -2161,24 +1602,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -2193,15 +1621,15 @@
         "Timelock"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\ChampagneCellar.sol": {
-      "lastModificationDate": 1641985651117,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/ChampagneCellar.sol": {
+      "lastModificationDate": 1643041142938,
       "contentHash": "0aa93b80524867895f5036a52ffc579c",
       "sourceName": "contracts/ChampagneCellar.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -2210,24 +1638,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -2244,15 +1659,15 @@
         "ChampagneCellar"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\interfaces\\IMasterChef.sol": {
-      "lastModificationDate": 1641981854772,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/interfaces/IMasterChef.sol": {
+      "lastModificationDate": 1643041142956,
       "contentHash": "3cbc5543ce7b34ae11425ba9f26ffc02",
       "sourceName": "contracts/interfaces/IMasterChef.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -2261,24 +1676,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -2293,15 +1695,15 @@
         "IWineMaker"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\node_modules\\@boringcrypto\\boring-solidity\\contracts\\libraries\\BoringERC20.sol": {
-      "lastModificationDate": 1642430276310,
-      "contentHash": "e6830979cf0de8eca5dc8d63474769e0",
+    "/Users/jq/Documents/GitHub/champagneswap/node_modules/@boringcrypto/boring-solidity/contracts/libraries/BoringERC20.sol": {
+      "lastModificationDate": 1643041501621,
+      "contentHash": "a4d43d9bcdfe02388479f9397ee036e1",
       "sourceName": "@boringcrypto/boring-solidity/contracts/libraries/BoringERC20.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -2310,24 +1712,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -2342,15 +1731,15 @@
         "BoringERC20"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\node_modules\\@boringcrypto\\boring-solidity\\contracts\\interfaces\\IERC20.sol": {
-      "lastModificationDate": 1642430276340,
-      "contentHash": "06bb2f617b145cb9d16372e96658e662",
+    "/Users/jq/Documents/GitHub/champagneswap/node_modules/@boringcrypto/boring-solidity/contracts/interfaces/IERC20.sol": {
+      "lastModificationDate": 1643041501621,
+      "contentHash": "42230f2725522218364239f02170f9bc",
       "sourceName": "@boringcrypto/boring-solidity/contracts/interfaces/IERC20.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -2359,24 +1748,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -2389,15 +1765,15 @@
         "IERC20"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\mocks\\RewarderMock.sol": {
-      "lastModificationDate": 1641981854803,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/mocks/RewarderMock.sol": {
+      "lastModificationDate": 1643041142904,
       "contentHash": "a6f75fe5e16f96c04854306204720a67",
       "sourceName": "contracts/mocks/RewarderMock.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -2406,24 +1782,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -2440,15 +1803,15 @@
         "RewarderMock"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\interfaces\\IRewarder.sol": {
-      "lastModificationDate": 1641981854772,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/interfaces/IRewarder.sol": {
+      "lastModificationDate": 1643041142955,
       "contentHash": "be67d38a1d316f97513314afc2247a37",
       "sourceName": "contracts/interfaces/IRewarder.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -2457,24 +1820,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -2489,15 +1839,15 @@
         "IRewarder"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\node_modules\\@boringcrypto\\boring-solidity\\contracts\\libraries\\BoringMath.sol": {
-      "lastModificationDate": 1642430276319,
-      "contentHash": "5a01c30b1736bef876d5e682ce759d25",
+    "/Users/jq/Documents/GitHub/champagneswap/node_modules/@boringcrypto/boring-solidity/contracts/libraries/BoringMath.sol": {
+      "lastModificationDate": 1643041501621,
+      "contentHash": "880eac69aa64dae6e3b5585d6b1164cc",
       "sourceName": "@boringcrypto/boring-solidity/contracts/libraries/BoringMath.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -2506,24 +1856,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -2539,15 +1876,15 @@
         "BoringMath64"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\mocks\\ComplexRewarderTime.sol": {
-      "lastModificationDate": 1641985705757,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/mocks/ComplexRewarderTime.sol": {
+      "lastModificationDate": 1643041142909,
       "contentHash": "69b35256aea7e0548ff7dc184821b57f",
       "sourceName": "contracts/mocks/ComplexRewarderTime.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -2556,24 +1893,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -2592,15 +1916,15 @@
         "ComplexRewarderTime"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\node_modules\\@boringcrypto\\boring-solidity\\contracts\\BoringOwnable.sol": {
-      "lastModificationDate": 1642430276323,
-      "contentHash": "9d813733ac27663e126d991a69da281c",
+    "/Users/jq/Documents/GitHub/champagneswap/node_modules/@boringcrypto/boring-solidity/contracts/BoringOwnable.sol": {
+      "lastModificationDate": 1643041501620,
+      "contentHash": "4346e0680c1e891cb927a5c507248bcd",
       "sourceName": "@boringcrypto/boring-solidity/contracts/BoringOwnable.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -2609,24 +1933,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -2640,15 +1951,15 @@
         "BoringOwnableData"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\WineMakerV2.sol": {
-      "lastModificationDate": 1642420648547,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/WineMakerV2.sol": {
+      "lastModificationDate": 1643041142947,
       "contentHash": "401fef17087e84f2e84bafc34c2f5e9a",
       "sourceName": "contracts/WineMakerV2.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -2657,24 +1968,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -2695,15 +1993,15 @@
         "WineMakerV2"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\node_modules\\@boringcrypto\\boring-solidity\\contracts\\BoringBatchable.sol": {
-      "lastModificationDate": 1642430276303,
-      "contentHash": "b79ca29146d1b473b30b5b11831de647",
+    "/Users/jq/Documents/GitHub/champagneswap/node_modules/@boringcrypto/boring-solidity/contracts/BoringBatchable.sol": {
+      "lastModificationDate": 1643041501620,
+      "contentHash": "64e4fb4508b3991be44578643e52fb11",
       "sourceName": "@boringcrypto/boring-solidity/contracts/BoringBatchable.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -2712,24 +2010,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -2745,15 +2030,15 @@
         "BoringBatchable"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\libraries\\SignedSafeMath.sol": {
-      "lastModificationDate": 1641981854788,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/libraries/SignedSafeMath.sol": {
+      "lastModificationDate": 1643041142945,
       "contentHash": "d58086c3fc86bde8e153086973923a9a",
       "sourceName": "contracts/libraries/SignedSafeMath.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -2762,24 +2047,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -2792,15 +2064,15 @@
         "SignedSafeMath"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\interfaces\\IWineMaker.sol": {
-      "lastModificationDate": 1642418688543,
-      "contentHash": "3cbc5543ce7b34ae11425ba9f26ffc02",
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/interfaces/IWineMaker.sol": {
+      "lastModificationDate": 1643041142955,
+      "contentHash": "194440195bfb626b40224ad864f40ca0",
       "sourceName": "contracts/interfaces/IWineMaker.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -2809,24 +2081,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -2841,15 +2100,15 @@
         "IWineMaker"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\MiniChefV2.sol": {
-      "lastModificationDate": 1642420556203,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/MiniChefV2.sol": {
+      "lastModificationDate": 1643041142917,
       "contentHash": "fd8c9738bf32a775023102032cde3dd2",
       "sourceName": "contracts/MiniChefV2.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -2858,24 +2117,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -2896,15 +2142,15 @@
         "MiniChefV2"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\mocks\\RewarderBrokenMock.sol": {
-      "lastModificationDate": 1641985707936,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/mocks/RewarderBrokenMock.sol": {
+      "lastModificationDate": 1643041142913,
       "contentHash": "a837c4cbafbda50393c02b42804bece9",
       "sourceName": "contracts/mocks/RewarderBrokenMock.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -2913,24 +2159,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -2945,15 +2178,15 @@
         "RewarderBrokenMock"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\mocks\\ComplexRewarder.sol": {
-      "lastModificationDate": 1641985705073,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/mocks/ComplexRewarder.sol": {
+      "lastModificationDate": 1643041142910,
       "contentHash": "e2a9cd9eaec646ee783693657002dbc6",
       "sourceName": "contracts/mocks/ComplexRewarder.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -2962,24 +2195,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -2998,15 +2218,15 @@
         "ComplexRewarder"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\mocks\\CloneRewarderTimeDual.sol": {
-      "lastModificationDate": 1641985704411,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/mocks/CloneRewarderTimeDual.sol": {
+      "lastModificationDate": 1643041142911,
       "contentHash": "89d171c1d1a559970bc57f8c4331ce5e",
       "sourceName": "contracts/mocks/CloneRewarderTimeDual.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -3015,24 +2235,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -3051,15 +2258,15 @@
         "IWineMakerV2"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\mocks\\CloneRewarderTime.sol": {
-      "lastModificationDate": 1641985702875,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/mocks/CloneRewarderTime.sol": {
+      "lastModificationDate": 1643041142907,
       "contentHash": "29c09904913203fcc7b3451b89b86dcd",
       "sourceName": "contracts/mocks/CloneRewarderTime.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -3068,24 +2275,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -3104,15 +2298,15 @@
         "IWineMakerV2"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\interfaces\\IMiniChefV2.sol": {
-      "lastModificationDate": 1641981854772,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/interfaces/IMiniChefV2.sol": {
+      "lastModificationDate": 1643041142957,
       "contentHash": "1007e295776c2662dd52567f2dedbaca",
       "sourceName": "contracts/interfaces/IMiniChefV2.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -3121,24 +2315,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -3151,15 +2332,15 @@
         "IMiniChefV2"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\mocks\\WETH9Mock.sol": {
-      "lastModificationDate": 1641985708780,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/mocks/WETH9Mock.sol": {
+      "lastModificationDate": 1643041142906,
       "contentHash": "40aa4324b2060f0921c1e9f0ff2c075b",
       "sourceName": "contracts/mocks/WETH9Mock.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -3168,24 +2349,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -3198,15 +2366,15 @@
         "WETH9Mock"
       ]
     },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\contracts\\Multicall2.sol": {
-      "lastModificationDate": 1641985662976,
+    "/Users/jq/Documents/GitHub/champagneswap/contracts/Multicall2.sol": {
+      "lastModificationDate": 1643041142952,
       "contentHash": "cb3ad92438fcadf7827e693ba35f0973",
       "sourceName": "contracts/Multicall2.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 200
           },
           "outputSelection": {
@@ -3215,24 +2383,11 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
+                "evm.methodIdentifiers"
               ],
               "": [
                 "ast"
               ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          },
-          "libraries": {
-            "": {
-              "__CACHE_BREAKER__": "0x00000000d41867734bbee4c6863d9255b2b06ac1"
             }
           }
         }
@@ -3243,48 +2398,6 @@
       ],
       "artifacts": [
         "Multicall2"
-      ]
-    },
-    "C:\\Users\\Alam\\Desktop\\champagneswap-main\\node_modules\\hardhat\\console.sol": {
-      "lastModificationDate": 1642430284707,
-      "contentHash": "cc4777addd464ea56fa35b1c45df0591",
-      "sourceName": "hardhat/console.sol",
-      "solcConfig": {
-        "version": "0.6.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.4.22 <0.9.0"
-      ],
-      "artifacts": [
-        "console"
       ]
     }
   }
