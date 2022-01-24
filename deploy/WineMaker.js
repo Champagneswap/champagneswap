@@ -4,26 +4,37 @@ module.exports = async function ({ ethers, deployments, getNamedAccounts }) {
   const { deployer, dev } = await getNamedAccounts()
 
   const cham = await ethers.getContract("ChampagneToken")
-  
+
   const { address } = await deploy("WineMaker", {
     from: deployer,
+    //1000000000000000000000 per block farming rate starting at block 0 with bonus until block 1000000000000000000000
     args: [cham.address, dev, "1000000000000000000000", "0", "1000000000000000000000"],
     log: true,
     deterministicDeployment: false
   })
-
   if (await cham.owner() !== address) {
     // Transfer Chamapgne Ownership to Chef
     console.log("Transfer Champagne Ownership to Winemaker")
     await (await cham.transferOwnership(address)).wait()
   }
 
+
+
+
   const wineMaker = await ethers.getContract("WineMaker")
   if (await wineMaker.owner() !== dev) {
     // Transfer ownership of WineMaker to dev
+
+
     console.log("Transfer ownership of WineMaker to dev")
     await (await wineMaker.transferOwnership(dev)).wait()
+
+    console.log("Transfer Token to WineMaker")
+    const tokenAmount = 75000000
+    await (await cham.safeTokenTransfer(address, tokenAmount)).wait()
+
   }
+
 }
 
 module.exports.tags = ["WineMaker"]

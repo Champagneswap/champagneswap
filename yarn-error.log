@@ -1,30 +1,30 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.17_2/libexec/bin/yarn.js install
+  C:\Program Files\nodejs\node.exe C:\Users\Alam\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add moralis
 
 PATH: 
-  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\Alam\AppData\Local\Microsoft\WindowsApps;C:\Users\Alam\AppData\Roaming\npm;C:\Users\Alam\AppData\Local\GitHubDesktop\bin
 
 Yarn version: 
   1.22.17
 
 Node version: 
-  17.3.0
+  14.18.1
 
 Platform: 
-  darwin x64
+  win32 x64
 
 Trace: 
-  Error: https://registry.npmjs.org/@champagneswap%2fcore-sdk: Not found
-      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:67029:18)
-      at Request.self.callback (/usr/local/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:140883:22)
-      at Request.emit (node:events:390:28)
-      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:141855:10)
-      at Request.emit (node:events:390:28)
-      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:141777:12)
-      at Object.onceWrapper (node:events:509:28)
-      at IncomingMessage.emit (node:events:402:35)
-      at endReadableNT (node:internal/streams/readable:1343:12)
-      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+  Error: https://registry.yarnpkg.com/@champagneswap%2fcore-sdk: Not found
+      at Request.params.callback [as _callback] (C:\Users\Alam\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:67029:18)
+      at Request.self.callback (C:\Users\Alam\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140883:22)
+      at Request.emit (events.js:400:28)
+      at Request.<anonymous> (C:\Users\Alam\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141855:10)
+      at Request.emit (events.js:400:28)
+      at IncomingMessage.<anonymous> (C:\Users\Alam\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (events.js:519:28)
+      at IncomingMessage.emit (events.js:412:35)
+      at endReadableNT (internal/streams/readable.js:1334:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
 
 npm manifest: 
   {
@@ -55,7 +55,10 @@ npm manifest:
       "ethereum"
     ],
     "scripts": {
-      "build": "hardhat compile",
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint",
       "console": "hardhat console",
       "testnet:deploy": "yarn ropsten:deploy && yarn rinkeby:deploy && yarn goerli:deploy && yarn kovan:deploy && yarn moonbase:deploy && yarn arbitrum:deploy",
       "mainnet:deploy": "hardhat --network mainnet deploy",
@@ -86,13 +89,13 @@ npm manifest:
       "prepublishOnly": "yarn run build"
     },
     "devDependencies": {
-      "@boringcrypto/boring-solidity": "boringcrypto/BoringSolidity#e06e943",
+      "@boringcrypto/boring-solidity": "github:boringcrypto/BoringSolidity#e06e943",
+      "@champagneswap/core-sdk": "1.0.0-canary.47",
       "@nomiclabs/hardhat-ethers": "^2.0.2",
       "@nomiclabs/hardhat-etherscan": "^2.1.0",
       "@nomiclabs/hardhat-solhint": "^2.0.0",
       "@nomiclabs/hardhat-waffle": "^2.0.1",
       "@openzeppelin/contracts": "^3.1.0",
-      "@champagneswap/core-sdk": "1.0.0-canary.9",
       "@tenderly/hardhat-tenderly": "^1.0.0",
       "@typechain/ethers-v5": "^5.0.0",
       "@types/chai": "^4.2.22",
@@ -119,8 +122,22 @@ npm manifest:
       "ts-generator": "^0.1.1",
       "ts-node": "^9.1.1",
       "typechain": "^4.0.2",
-      "typescript": "^4.2.2"
-    }
+      "typescript": "^4.2.2",
+      "fs": "0.0.1-security"
+    },
+    "dependencies": {
+      "@sushiswap/core-sdk": "^1.0.0-canary.47",
+      "fs": "0.0.1-security",
+      "next": "^12.0.8",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+        "fs": "0.0.1-security"
+    },
+    "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  }
   }
 
 yarn manifest: 
@@ -365,7 +382,7 @@ Lockfile:
       "@ethersproject/logger" "^5.5.0"
       "@ethersproject/properties" "^5.5.0"
   
-  "@ethersproject/address@5.5.0", "@ethersproject/address@>=5.0.0-beta.128", "@ethersproject/address@^5.0.0", "@ethersproject/address@^5.0.2", "@ethersproject/address@^5.0.4", "@ethersproject/address@^5.4.0", "@ethersproject/address@^5.5.0":
+  "@ethersproject/address@5.5.0", "@ethersproject/address@>=5.0.0-beta.128", "@ethersproject/address@^5.0.0", "@ethersproject/address@^5.0.2", "@ethersproject/address@^5.0.4", "@ethersproject/address@^5.5.0":
     version "5.5.0"
     resolved "https://registry.yarnpkg.com/@ethersproject/address/-/address-5.5.0.tgz#bcc6f576a553f21f3dd7ba17248f81b473c9c78f"
     integrity sha512-l4Nj0eWlTUh6ro5IbPTgbpT4wRbdH5l8CQf7icF7sb/SI3Nhd9Y9HzhonTSTi6CefI0necIw7LJqQPopPLZyWw==
@@ -391,7 +408,7 @@ Lockfile:
       "@ethersproject/bytes" "^5.5.0"
       "@ethersproject/properties" "^5.5.0"
   
-  "@ethersproject/bignumber@5.5.0", "@ethersproject/bignumber@>=5.0.0-beta.130", "@ethersproject/bignumber@^5.0.0", "@ethersproject/bignumber@^5.0.7", "@ethersproject/bignumber@^5.4.0", "@ethersproject/bignumber@^5.5.0":
+  "@ethersproject/bignumber@5.5.0", "@ethersproject/bignumber@>=5.0.0-beta.130", "@ethersproject/bignumber@^5.0.0", "@ethersproject/bignumber@^5.0.7", "@ethersproject/bignumber@^5.5.0":
     version "5.5.0"
     resolved "https://registry.yarnpkg.com/@ethersproject/bignumber/-/bignumber-5.5.0.tgz#875b143f04a216f4f8b96245bde942d42d279527"
     integrity sha512-6Xytlwvy6Rn3U3gKEc1vP7nR92frHkv6wtVr95LFR3jREXiCPzdWxKQ1cx4JGQBXxcguAwjA8murlYN2TSiEbg==
@@ -516,7 +533,7 @@ Lockfile:
     dependencies:
       "@ethersproject/logger" "^5.5.0"
   
-  "@ethersproject/providers@5.5.0", "@ethersproject/providers@^5.0.0", "@ethersproject/providers@^5.4.0":
+  "@ethersproject/providers@5.5.0", "@ethersproject/providers@^5.0.0":
     version "5.5.0"
     resolved "https://registry.yarnpkg.com/@ethersproject/providers/-/providers-5.5.0.tgz#bc2876a8fe5e0053ed9828b1f3767ae46e43758b"
     integrity sha512-xqMbDnS/FPy+J/9mBLKddzyLLAQFjrVff5g00efqxPzcAwXiR+SiCGVy6eJ5iAIirBOATjx7QLhDNPGV+AEQsw==
@@ -578,7 +595,7 @@ Lockfile:
       elliptic "6.5.4"
       hash.js "1.1.7"
   
-  "@ethersproject/solidity@5.5.0", "@ethersproject/solidity@^5.0.0", "@ethersproject/solidity@^5.4.0":
+  "@ethersproject/solidity@5.5.0", "@ethersproject/solidity@^5.0.0":
     version "5.5.0"
     resolved "https://registry.yarnpkg.com/@ethersproject/solidity/-/solidity-5.5.0.tgz#2662eb3e5da471b85a20531e420054278362f93f"
     integrity sha512-9NgZs9LhGMj6aCtHXhtmFQ4AN4sth5HuFXVvAQtzmm0jpSCNOTGtrHZJAeYTh7MBjRR8brylWZxBZR9zDStXbw==
@@ -867,22 +884,6 @@ Lockfile:
     integrity sha512-cX0JJRcmPtNUJpzD2K7FdA7qQsTOk1UZnFx2k7qAg9ZRvuaH5NBe5IEdBMXGlmf2+FmjhqbygJ26H8l2SV7aKQ==
     dependencies:
       antlr4ts "^0.5.0-alpha.4"
-  
-  "@sushiswap/core-sdk@1.0.0-canary.9":
-    version "1.0.0-canary.9"
-    resolved "https://registry.yarnpkg.com/@sushiswap/core-sdk/-/core-sdk-1.0.0-canary.9.tgz#969964b25be5e52c3a12dce237b5e8d1ebfaac86"
-    integrity sha512-IhDB38mcGN1akaYC6vl9R7348HM9Ki7SHTUoZyud8xr/gf09E8cZAovTWNJV+PdohFwV6549ODgWgAIlfSpeMw==
-    dependencies:
-      "@ethersproject/address" "^5.4.0"
-      "@ethersproject/bignumber" "^5.4.0"
-      "@ethersproject/providers" "^5.4.0"
-      "@ethersproject/solidity" "^5.4.0"
-      big.js "^6.1.0"
-      decimal.js-light "^2.5.0"
-      jsbi "^3.2.0"
-      tiny-invariant "^1.1.0"
-      tiny-warning "^1.0.0"
-      toformat "^2.0.0"
   
   "@szmarczak/http-timer@^1.1.2":
     version "1.1.2"
@@ -2053,11 +2054,6 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/bech32/-/bech32-1.1.4.tgz#e38c9f37bf179b8eb16ae3a772b40c356d4832e9"
     integrity sha512-s0IrSOzLlbvX7yp4WBfPITzpAU8sqQcpsmwXDiKwrG4r491vwCO/XpejasRNl0piBMe/DvP4Tz0mIS/X1DPJBQ==
   
-  big.js@^6.1.0:
-    version "6.1.1"
-    resolved "https://registry.yarnpkg.com/big.js/-/big.js-6.1.1.tgz#63b35b19dc9775c94991ee5db7694880655d5537"
-    integrity sha512-1vObw81a8ylZO5ePrtMay0n018TcftpTA5HFKDaSuiUDBo8biRBtjIobw60OpwuvrGk+FsxKamqN4cnmj/eXdg==
-  
   bignumber.js@^9.0.0, bignumber.js@^9.0.1:
     version "9.0.1"
     resolved "https://registry.yarnpkg.com/bignumber.js/-/bignumber.js-9.0.1.tgz#8d7ba124c882bfd8e43260c67475518d0689e4e5"
@@ -2931,11 +2927,6 @@ Lockfile:
     version "1.2.0"
     resolved "https://registry.yarnpkg.com/decamelize/-/decamelize-1.2.0.tgz#f6534d15148269b20352e7bee26f501f9a191290"
     integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
-  
-  decimal.js-light@^2.5.0:
-    version "2.5.1"
-    resolved "https://registry.yarnpkg.com/decimal.js-light/-/decimal.js-light-2.5.1.tgz#134fd32508f19e208f4fb2f8dac0d2626a867934"
-    integrity sha512-qIMFpTMZmny+MMIitAB6D7iVPEorVw6YQRWkvarTkT4tBeSLLiHzcwj6q0MmYSFCiVpiqPJTJEYIrpcPzVEIvg==
   
   decode-uri-component@^0.2.0:
     version "0.2.0"
@@ -5632,11 +5623,6 @@ Lockfile:
     dependencies:
       argparse "^1.0.7"
       esprima "^4.0.0"
-  
-  jsbi@^3.2.0:
-    version "3.2.5"
-    resolved "https://registry.yarnpkg.com/jsbi/-/jsbi-3.2.5.tgz#b37bb90e0e5c2814c1c2a1bcd8c729888a2e37d6"
-    integrity sha512-aBE4n43IPvjaddScbvWRA2YlTzKEynHzu7MqOyTipdHucf/VxS63ViCjxYRg86M8Rxwbt/GfzHl1kKERkt45fQ==
   
   jsbn@~0.1.0:
     version "0.1.1"
@@ -8669,16 +8655,6 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/timed-out/-/timed-out-4.0.1.tgz#f32eacac5a175bea25d7fab565ab3ed8741ef56f"
     integrity sha1-8y6srFoXW+ol1/q1Zas+2HQe9W8=
   
-  tiny-invariant@^1.1.0:
-    version "1.1.0"
-    resolved "https://registry.yarnpkg.com/tiny-invariant/-/tiny-invariant-1.1.0.tgz#634c5f8efdc27714b7f386c35e6760991d230875"
-    integrity sha512-ytxQvrb1cPc9WBEI/HSeYYoGD0kWnGEOR8RY6KomWLBVhqz0RgTwVO9dLrGz7dC+nN9llyI7OKAgRq8Vq4ZBSw==
-  
-  tiny-warning@^1.0.0:
-    version "1.0.3"
-    resolved "https://registry.yarnpkg.com/tiny-warning/-/tiny-warning-1.0.3.tgz#94a30db453df4c643d0fd566060d60a875d84754"
-    integrity sha512-lBN9zLN/oAf68o3zNXYrdCt1kP8WsiGW8Oo2ka41b2IM5JL/S1CTyX1rW0mb/zSuJun0ZUrDxx4sqvYS2FWzPA==
-  
   tmp@0.0.33, tmp@^0.0.33:
     version "0.0.33"
     resolved "https://registry.yarnpkg.com/tmp/-/tmp-0.0.33.tgz#6d34335889768d21b2bcda0aa277ced3b1bfadf9"
@@ -8734,11 +8710,6 @@ Lockfile:
       extend-shallow "^3.0.2"
       regex-not "^1.0.2"
       safe-regex "^1.1.0"
-  
-  toformat@^2.0.0:
-    version "2.0.0"
-    resolved "https://registry.yarnpkg.com/toformat/-/toformat-2.0.0.tgz#7a043fd2dfbe9021a4e36e508835ba32056739d8"
-    integrity sha512-03SWBVop6nU8bpyZCx7SodpYznbZF5R4ljwNLBcTQzKOD9xuihRo/psX58llS1BMFhhAI08H3luot5GoXJz2pQ==
   
   toidentifier@1.0.0:
     version "1.0.0"

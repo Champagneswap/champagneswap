@@ -79,7 +79,7 @@ contract MiniChefV2 is BoringOwnable, BoringBatchable {
 
     /// @param _cham The CHAM token contract address.
     constructor(IERC20 _cham) public {
-        CHAM = _cham;
+        Cham = _cham;
     }
 
     /// @notice Returns the number of MCV2 pools.
@@ -161,7 +161,7 @@ contract MiniChefV2 is BoringOwnable, BoringBatchable {
             uint256 chamReward = time.mul(chamPerSecond).mul(pool.allocPoint) / totalAllocPoint;
             accChamPerShare = accChamPerShare.add(chamReward.mul(ACC_CHAM_PRECISION) / lpSupply);
         }
-        pending = int256(user.amount.mul(accChamPerShare) / ACC_Cham_PRECISION).sub(user.rewardDebt).toUInt256();
+        pending = int256(user.amount.mul(accChamPerShare) / ACC_CHAM_PRECISION).sub(user.rewardDebt).toUInt256();
     }
 
     /// @notice Update reward variables for all pools. Be careful of gas spending!
@@ -183,7 +183,7 @@ contract MiniChefV2 is BoringOwnable, BoringBatchable {
             if (lpSupply > 0) {
                 uint256 time = block.timestamp.sub(pool.lastRewardTime);
                 uint256 chamReward = time.mul(chamPerSecond).mul(pool.allocPoint) / totalAllocPoint;
-                pool.accChamPerShare = pool.accChamPerShare.add((chamReward.mul(ACC_Cham_PRECISION) / lpSupply).to128());
+                pool.accChamPerShare = pool.accChamPerShare.add((chamReward.mul(ACC_CHAM_PRECISION)/lpSupply).to128());
             }
             pool.lastRewardTime = block.timestamp.to64();
             poolInfo[pid] = pool;
@@ -251,7 +251,7 @@ contract MiniChefV2 is BoringOwnable, BoringBatchable {
 
         // Interactions
         if (_pendingCham != 0) {
-            CHAM.safeTransfer(to, _pendingCham);
+            Cham.safeTransfer(to, _pendingCham);
         }
 
         IRewarder _rewarder = rewarder[pid];
@@ -269,7 +269,7 @@ contract MiniChefV2 is BoringOwnable, BoringBatchable {
     function withdrawAndHarvest(uint256 pid, uint256 amount, address to) public {
         PoolInfo memory pool = updatePool(pid);
         UserInfo storage user = userInfo[pid][msg.sender];
-        int256 accumulatedCham = int256(user.amount.mul(pool.accChamiPerShare) / ACC_Cham_PRECISION);
+        int256 accumulatedCham = int256(user.amount.mul(pool.accChamPerShare) / ACC_CHAM_PRECISION);
         uint256 _pendingCham = accumulatedCham.sub(user.rewardDebt).toUInt256();
 
         // Effects
@@ -277,7 +277,7 @@ contract MiniChefV2 is BoringOwnable, BoringBatchable {
         user.amount = user.amount.sub(amount);
 
         // Interactions
-        CHAM.safeTransfer(to, _pendingCham);
+        Cham.safeTransfer(to, _pendingCham);
 
         IRewarder _rewarder = rewarder[pid];
         if (address(_rewarder) != address(0)) {

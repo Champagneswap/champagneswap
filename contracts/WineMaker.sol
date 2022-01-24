@@ -95,7 +95,11 @@ contract WineMaker is Ownable {
         chamPerBlock = _chamPerBlock;
         bonusEndBlock = _bonusEndBlock;
         startBlock = _startBlock;
+
     }
+
+
+
 
     function poolLength() external view returns (uint256) {
         return poolInfo.length;
@@ -222,8 +226,8 @@ contract WineMaker is Ownable {
             multiplier.mul(chamPerBlock).mul(pool.allocPoint).div(
                 totalAllocPoint
             );
-        cham.mint(devaddr, chamReward.div(10));
-        cham.mint(address(this), chamReward);
+        Cham.mint(devaddr, chamReward.div(10));
+        Cham.mint(address(this), chamReward);
         pool.accChamPerShare = pool.accChamPerShare.add(
             chamReward.mul(1e12).div(lpSupply)
         );
@@ -282,11 +286,11 @@ contract WineMaker is Ownable {
 
     // Safe cham transfer function, just in case if rounding error causes pool to not have enough CHAMs.
     function safeChamTransfer(address _to, uint256 _amount) internal {
-        uint256 chamBal = cham.balanceOf(address(this));
+        uint256 chamBal = Cham.balanceOf(address(this));
         if (_amount > chamBal) {
-            cham.transfer(_to, chamBal);
+            Cham.transfer(_to, chamBal);
         } else {
-            cham.transfer(_to, _amount);
+            Cham.transfer(_to, _amount);
         }
     }
 

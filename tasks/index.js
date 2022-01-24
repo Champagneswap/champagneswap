@@ -145,10 +145,10 @@ task("erc20:approve", "ERC20 approve")
 .addOptionalParam("deadline", MaxUint256)
 .setAction(async function ({ token, spender, deadline }, { ethers: { getNamedSigner } }, runSuper) {
   const erc20 = await ethers.getContractFactory("UniswapV2ERC20")
-  
-  const slp = erc20.attach(token)   
-  
-  await (await slp.connect(await getNamedSigner("dev")).approve(spender, deadline)).wait()    
+
+  const slp = erc20.attach(token)
+
+  await (await slp.connect(await getNamedSigner("dev")).approve(spender, deadline)).wait()
 });
 
 task("factory:set-fee-to", "Factory set fee to")
@@ -156,7 +156,7 @@ task("factory:set-fee-to", "Factory set fee to")
 .setAction(async function ({ feeTo }, { ethers: { getNamedSigner } }, runSuper) {
   const factory = await ethers.getContract("UniswapV2Factory")
   console.log(`Setting factory feeTo to ${feeTo} address`)
-  await (await factory.connect(await getNamedSigner('dev')).setFeeTo(feeTo)).wait() 
+  await (await factory.connect(await getNamedSigner('dev')).setFeeTo(feeTo)).wait()
 });
 
 // TODO: Swap?
@@ -175,7 +175,7 @@ task("router:add-liquidity", "Router add liquidity")
   const router = await ethers.getContract("UniswapV2Router")
   await run("erc20:approve", { token: tokenA, spender: router.address })
   await run("erc20:approve", { token: tokenB, spender: router.address })
-  await (await router.connect(await getNamedSigner("dev")).addLiquidity(tokenA, tokenB, tokenADesired, tokenBDesired, tokenAMinimum, tokenBMinimum, to, deadline)).wait()    
+  await (await router.connect(await getNamedSigner("dev")).addLiquidity(tokenA, tokenB, tokenADesired, tokenBDesired, tokenAMinimum, tokenBMinimum, to, deadline)).wait()
 });
 
 // TODO: Test
@@ -189,7 +189,7 @@ task("router:add-liquidity-eth", "Router add liquidity eth")
 .setAction(async function ({ token, tokenDesired, tokenMinimum, ethMinimum, to, deadline }, { ethers: { getNamedSigner } }, runSuper) {
   const router = await ethers.getContract("UniswapV2Router")
   await run("erc20:approve", { token, spender: router.address })
-  await (await router.connect(await getNamedSigner("dev")).addLiquidityETH(token, tokenDesired, tokenMinimum, ethMinimum, to, deadline)).wait()    
+  await (await router.connect(await getNamedSigner("dev")).addLiquidityETH(token, tokenDesired, tokenMinimum, ethMinimum, to, deadline)).wait()
 });
 
 task("migrate", "Migrates liquidity from Uniswap to ChampagneSwap")
@@ -238,7 +238,7 @@ task("bar:enter", "ChampagneCellar enter")
   const bar = await ethers.getContract("ChampagneCellar")
 
   await run("erc20:approve", { token: cham.address, spender: bar.address })
-  
+
   await (await bar.connect(await getNamedSigner("dev")).enter(amount)).wait()
 });
 
@@ -250,7 +250,7 @@ task("bar:leave", "ChampagneCellar leave")
   const bar = await ethers.getContract("ChampagneCellar")
 
   await run("erc20:approve", { token: cham.address, spender: bar.address })
-  
+
   await (await bar.connect(await getNamedSigner("dev")).leave(amount)).wait()
 });
 
@@ -333,10 +333,9 @@ task("deploy:complex-rewarder", "Deploy ComplexRewarder")
 //   const data = defaultAbiCoder.encode(['address', 'address', 'uint256', 'address'], [rewardToken, dev, rewardRate, lpToken])
 
 //   await (await cloneRewarder.init(data)).wait()
-  
+
 //   if ((await complexRewarder.owner()) !== dev) {
 //     console.log("Transfer ownership of CloneRewarderTime to dev");
 //     await (await cloneRewarder.transferOwnership(dev, true, false)).wait();
 //   }
-// });
-
+ //});

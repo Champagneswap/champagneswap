@@ -1,4 +1,4 @@
-const { WETH_ADDRESS } = require("@champagneswap/core-sdk")
+const { WETH9_ADDRESS } = require("@sushiswap/sdk")
 
 module.exports = async function ({ ethers: { getNamedSigner }, getNamedAccounts, deployments }) {
   const { deploy } = deployments
@@ -10,13 +10,14 @@ module.exports = async function ({ ethers: { getNamedSigner }, getNamedAccounts,
   const factory = await ethers.getContract("UniswapV2Factory")
   const bar = await ethers.getContract("ChampagneCellar")
   const cham = await ethers.getContract("ChampagneToken")
-  
+
   let wethAddress;
-  
+
   if (chainId === '31337') {
     wethAddress = (await deployments.get("WETH9Mock")).address
-  } else if (chainId in WETH_ADDRESS) {
-    wethAddress = WETH_ADDRESS[chainId]
+  } else if (chainId === '4') {
+    console.log("HHHHH: ", WETH9_ADDRESS)
+    wethAddress = WETH9_ADDRESS[chainId]
   } else {
     throw Error("No WETH!")
   }

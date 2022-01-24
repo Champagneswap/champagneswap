@@ -1,4 +1,4 @@
-const { CHAM_ADDRESS } = require("@champagneswap/core-sdk");
+const { CHAM_ADDRESS } = require("@sushiswap/sdk");
 
 module.exports = async function ({ ethers, deployments, getNamedAccounts }) {
   const { deploy } = deployments;
@@ -11,8 +11,9 @@ module.exports = async function ({ ethers, deployments, getNamedAccounts }) {
 
   if (chainId === "31337") {
     chamAddress = (await deployments.get("ChampagneToken")).address;
-  } else if (chainId in CHAM_ADDRESS) {
-    chamAddress = CHAM_ADDRESS[chainId];
+  } else if (chainId === "4") {
+    chamAddress = (await deployments.get("ChampagneToken")).address;
+    console.log(chamAddress)
   } else {
     throw Error("No CHAM!");
   }

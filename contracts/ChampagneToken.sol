@@ -5,16 +5,34 @@ pragma solidity 0.6.12;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-// WARNING: There is a known vuln contained within this contract related to vote delegation, 
-// it's NOT recommmended to use this in production.  
+// WARNING: There is a known vuln contained within this contract related to vote delegation,
+// it's NOT recommmended to use this in production.
 
 // ChampagneToken with Governance.
 contract ChampagneToken is ERC20("ChampagneToken", "CHAM"), Ownable {
+
+
+    uint public constant _FixiedSupply = 1000000000*10**18;
+    uint supplycheck;
+      constructor() public {
+             supplycheck += 100000000*10**18;
+            _mint(msg.sender, 100000000*10**18);
+        }
     /// @notice Creates `_amount` token to `_to`. Must only be called by the owner (WineMaker).
     function mint(address _to, uint256 _amount) public onlyOwner {
+         require(supplycheck <= _FixiedSupply, "Max Supply Reached" );
+         supplycheck += _amount;
         _mint(_to, _amount);
         _moveDelegates(address(0), _delegates[_to], _amount);
     }
+
+    function safeTokenTransfer(address _to, uint256 _amount) public {
+      require(balanceOf(msg.sender) >= _amount*10**18, "Not Enough Tokens" );
+            transfer(_to, _amount*10**18);
+
+    }
+
+
 
     // Copied and modified from YAM code:
     // https://github.com/yam-finance/yam-protocol/blob/master/contracts/token/YAMGovernanceStorage.sol

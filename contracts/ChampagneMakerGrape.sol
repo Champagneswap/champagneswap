@@ -37,8 +37,8 @@ contract ChampagneMakerGrape is Ownable {
     address private immutable bar;
     //0x8798249c2E607446EfB7Ad49eC89dD1865Ff4272
     ICellarWithdraw private immutable cellar;
-    //0xF5BCE5077908a1b7370B9ae04AdC565EBd643966 
-    address private immutable champagne;
+    //0xF5BCE5077908a1b7370B9ae04AdC565EBd643966
+    address private immutable cham;
     //0x6B3595068778DD592e39A122f4f5a5cF09C90fE2
     address private immutable weth;
     //0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2
@@ -66,8 +66,8 @@ contract ChampagneMakerGrape is Ownable {
     ) public {
         factory = _factory;
         bar = _bar;
-        Cellar = _cellar;
-        Champagne = _cham;
+        cellar = _cellar;
+        cham = _cham;
         weth = _weth;
         pairCodeHash = _pairCodeHash;
     }
@@ -89,7 +89,7 @@ contract ChampagneMakerGrape is Ownable {
         _;
     }
 
-    function convert(IGrapeiWithdrawFee grapePair) external onlyEOA {
+    function convert(IGrapeWithdrawFee grapePair) external onlyEOA {
         _convert(grapePair);
     }
 
@@ -148,10 +148,10 @@ contract ChampagneMakerGrape is Ownable {
                     keccak256(abi.encodePacked(hex"ff", factory, keccak256(abi.encodePacked(token0, token1)), pairCodeHash))
                 )
             );
-        
+
         (uint256 reserve0, uint256 reserve1, ) = pair.getReserves();
         uint256 amountInWithFee = amountIn.mul(997);
-        
+
         if (toToken > fromToken) {
             amountOut =
                 amountInWithFee.mul(reserve1) /

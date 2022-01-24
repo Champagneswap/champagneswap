@@ -1,0 +1,10 @@
+deployments
+all
+deployments
+deployments all
+deployments
+npx hardhat run deploy/UniswapV2Factory.js --network bs
+contract.address
+contracts
+.load
+.help

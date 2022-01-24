@@ -766,7 +766,7 @@ contract GrapePairMediumRiskV1 is ERC20, BoringOwnable, IMasterContract {
     event LogWithdrawFees(address indexed feeTo, uint256 feesEarnedFraction);
 
     // Immutables (for MasterContract and all clones)
-    ICellarV1 public immutable Cellar;
+    ICellarV1 public immutable cellar;
     GrapePairMediumRiskV1 public immutable masterContract;
 
     // MasterContract variables

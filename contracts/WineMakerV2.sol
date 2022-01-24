@@ -82,7 +82,7 @@ contract WineMakerV2 is BoringOwnable, BoringBatchable {
     /// @param _MASTER_PID The pool ID of the dummy token on the base MCV1 contract.
     constructor(IWineMaker _MASTER_CHEF, IERC20 _cham, uint256 _MASTER_PID) public {
         MASTER_CHEF = _MASTER_CHEF;
-        Cham = _cham;
+        CHAM = _cham;
         MASTER_PID = _MASTER_PID;
     }
 
@@ -195,7 +195,7 @@ contract WineMakerV2 is BoringOwnable, BoringBatchable {
             if (lpSupply > 0) {
                 uint256 blocks = block.number.sub(pool.lastRewardBlock);
                 uint256 chamReward = blocks.mul(chamPerBlock()).mul(pool.allocPoint) / totalAllocPoint;
-                pool.accChamPerShare = pool.accChamPerShare.add((chamReward.mul(ACC_CHAM_PRECISION) / lpSupply).to128());
+                pool.accChamPerShare = pool.accChamPerShare.add((chamReward.mul(ACC_CHAM_PRECISION)/lpSupply).to128());
             }
             pool.lastRewardBlock = block.number.to64();
             poolInfo[pid] = pool;
@@ -243,7 +243,7 @@ contract WineMakerV2 is BoringOwnable, BoringBatchable {
         if (address(_rewarder) != address(0)) {
             _rewarder.onChamReward(pid, msg.sender, to, 0, user.amount);
         }
-        
+
         lpToken[pid].safeTransfer(to, amount);
 
         emit Withdraw(msg.sender, pid, amount, to);
@@ -265,7 +265,7 @@ contract WineMakerV2 is BoringOwnable, BoringBatchable {
         if (_pendingCham != 0) {
             CHAM.safeTransfer(to, _pendingCham);
         }
-        
+
         IRewarder _rewarder = rewarder[pid];
         if (address(_rewarder) != address(0)) {
             _rewarder.onChamReward( pid, msg.sender, to, _pendingCham, user.amount);
@@ -273,7 +273,7 @@ contract WineMakerV2 is BoringOwnable, BoringBatchable {
 
         emit Harvest(msg.sender, pid, _pendingCham);
     }
-    
+
     /// @notice Withdraw LP tokens from MCV2 and harvest proceeds for transaction sender to `to`.
     /// @param pid The index of the pool. See `poolInfo`.
     /// @param amount LP token amount to withdraw.
@@ -287,7 +287,7 @@ contract WineMakerV2 is BoringOwnable, BoringBatchable {
         // Effects
         user.rewardDebt = accumulatedCham.sub(int256(amount.mul(pool.accChamPerShare) / ACC_CHAM_PRECISION));
         user.amount = user.amount.sub(amount);
-        
+
         // Interactions
         CHAM.safeTransfer(to, _pendingCham);
 

@@ -26,7 +26,7 @@ contract ChampagneMaker is Ownable {
     address public immutable bar;
     //0x8798249c2E607446EfB7Ad49eC89dD1865Ff4272
     // V1 - V5: OK
-    address private immutable champagne;
+    address private immutable cham;
     //0x6B3595068778DD592e39A122f4f5a5cF09C90fE2
     // V1 - V5: OK
     address private immutable weth;
@@ -181,7 +181,7 @@ contract ChampagneMaker is Ownable {
             );
         } else if (token1 == weth) {
             // eg. USDT - ETH
-            chamOut = _toCham(
+            chamOut = _toCHAM(
                 weth,
                 _swap(token0, weth, amount0, address(this)).add(amount1)
             );

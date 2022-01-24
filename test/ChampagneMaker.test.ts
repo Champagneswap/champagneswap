@@ -3,9 +3,9 @@ import { prepare, deploy, getBigNumber, createSLP } from "./utilities"
 
 describe("ChampagneMaker", function () {
   before(async function () {
+    this.enableTimeouts(false)
     await prepare(this, ["ChampagneMaker", "ChampagneCellar", "ChampagneMakerExploitMock", "ERC20Mock", "UniswapV2Factory", "UniswapV2Pair"])
   })
-
   beforeEach(async function () {
     await deploy(this, [
       ["cham", this.ERC20Mock, ["CHAM", "CHAM", getBigNumber("10000000")]],
